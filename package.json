@@ -1,0 +1,29 @@
+{
+  "name": "filewatcher2rabbit",
+  "version": "1.0.0",
+  "description": "A service picks up file changes and send the file path to RabbitMQ",
+  "main": "app.js",
+  "dependencies": {
+    "amqplib": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaeleven/FileWatcherToRabbitMQ.git"
+  },
+  "keywords": [
+    "filewatcher",
+    "rabbitmq",
+    "nodejs",
+    "chokidar"
+  ],
+  "author": "Jeffrey Peng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphaeleven/FileWatcherToRabbitMQ/issues"
+  },
+  "homepage": "https://github.com/alphaeleven/FileWatcherToRabbitMQ#readme"
+}
